@@ -1,6 +1,6 @@
 #change this to your own repo, should you have uploaded your image!
 # this one is node latest, but get a lower version. Node 8 is long term support
-FROM  node:alpine
+FROM  mhart/alpine-node:8.15
 # FROM  quasarframework/client-dev:latest <<<=== that one is dead
 MAINTAINER Your Name <your.email@your-sites-address.com>
 

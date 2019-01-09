@@ -3,7 +3,8 @@ version: '2'
 services:
   app:
     build: .
-    image: your-docker-org/your-app-name
+    image:woahbase/alpine-quasar:x86_64
+    #image: your-docker-org/your-app-name
     command: sh
     volumes:
       - .:/opt/app
